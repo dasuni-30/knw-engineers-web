@@ -2,10 +2,13 @@ import { motion, useScroll, useTransform } from "motion/react";
 import { Menu, X, Facebook, Linkedin, Mail, Phone } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "@/src/lib/utils";
+import logo from '../assets/images/knw-logo.png';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,7 +47,7 @@ export default function Header() {
           className="flex items-center gap-3"
         >
           <div className="flex items-center gap-3">
-            <img src="../src/assets/images/knw-logo.png" alt="KNW Logo" className="w-10 h-10 object-contain" />
+            <img src={logo} alt="KNW Logo" className="w-10 h-10 object-contain" />
             <div className="w-0.5 h-6 bg-brand-orange mx-1 rotate-12" />
             <span className="text-[10px] uppercase tracking-[0.2em] font-black text-slate-800 leading-tight">
               Engineers<br/>(Pvt) Ltd
