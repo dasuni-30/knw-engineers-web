@@ -1,5 +1,6 @@
 import { Facebook, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { companyInfo } from "@/src/data";
+import logo from '../assets/images/knw-logo.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           <div className="space-y-8">
             <div className="flex items-center gap-3">
-              <img src="src/assets/images/knw-logo.png" alt="KNW Logo" className="w-12 h-12 object-contain" />
+              <img src={logo} alt="KNW Logo" className="w-12 h-12 object-contain" />
               <div className="w-0.5 h-6 bg-brand-orange mx-1 rotate-12" />
               <span className="text-[10px] uppercase tracking-[0.2em] font-black text-slate-500 leading-tight">
                 Engineers<br/>(Pvt) Ltd

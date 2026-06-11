@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { companyInfo } from "@/src/data";
+import banner from '../assets/images/knw-banner-2.png';
 
 export default function About() {
   const values = [
@@ -28,7 +29,7 @@ export default function About() {
           >
             <div className="col-span-2 aspect-video rounded-sm overflow-hidden shadow-2xl">
               <img 
-                src="src/assets/images/knw-banner-2.png" 
+                src={banner}
                 alt="KNW Industrial Facility"
                 className="w-full h-full object-cover"
               />

@@ -1,6 +1,10 @@
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { companyInfo } from "@/src/data";
+import logo from '../assets/images/knw-logo.png';
+import banner from '../assets/images/knw-banner.png';
+
+
 
 export default function Hero() {
   return (
@@ -20,7 +24,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <div className="flex items-center gap-4 mb-8">
-            <img src="src/assets/images/knw-logo.png" alt="KNW Logo" className="w-16 h-16 object-contain" />
+            <img src={logo} alt="KNW Logo" className="w-16 h-16 object-contain" />
             <div className="h-12 w-px bg-slate-200" />
             <span className="text-xs font-black uppercase tracking-[0.3em] text-brand-orange leading-tight">
               Established <br/> Since 2010
@@ -62,7 +66,7 @@ export default function Hero() {
         >
           <div className="aspect-video lg:aspect-[4/5] overflow-hidden rounded-sm shadow-2xl relative group">
             <img 
-              src="/src/assets/images/knw-banner.png" 
+              src={banner}
               alt="KNW Engineers Banner"
               className="w-full h-full object-cover grayscale-0 group-hover:scale-105 transition-transform duration-1000"
             />
