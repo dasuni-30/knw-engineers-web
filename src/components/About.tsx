@@ -28,7 +28,7 @@ export default function About() {
           >
             <div className="col-span-2 aspect-video rounded-sm overflow-hidden shadow-2xl">
               <img 
-                src="/input_file_1.png" 
+                src="src/assets/images/knw-banner-2.png" 
                 alt="KNW Industrial Facility"
                 className="w-full h-full object-cover"
               />

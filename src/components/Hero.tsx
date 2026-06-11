@@ -20,20 +20,21 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <div className="flex items-center gap-4 mb-8">
-            <img src="/input_file_2.png" alt="KNW Logo" className="w-16 h-16 object-contain" />
+            <img src="src/assets/images/knw-logo.png" alt="KNW Logo" className="w-16 h-16 object-contain" />
             <div className="h-12 w-px bg-slate-200" />
             <span className="text-xs font-black uppercase tracking-[0.3em] text-brand-orange leading-tight">
               Established <br/> Since 2010
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-8xl font-black text-slate-900 leading-[0.9] mb-8 uppercase tracking-tighter">
-            Precision <br/>
-            <span className="text-brand-blue">Fabrication.</span>
+          <h1 className="text-8xl md:text-5xl font-black text-slate-900 leading-[0.9] mb-8  tracking-tighter">
+          Engineering Excellence in  <br/>
+            <span className="text-brand-blue">LPG Piping & Stainless Steel Fabrication.</span>
           </h1>
           
           <p className="text-lg md:text-xl text-slate-600 font-medium leading-relaxed mb-10 max-w-lg">
-            KNW Engineers (Pvt) Ltd is a premier Sri Lankan firm specializing in high-quality design, fabrication, and production engineering. We deliver turnkey projects that are hassle-free and cost-effective.
+          Welcome to KNW Engineers (Pvt) Ltd, a trusted engineering company specializing in LPG gas piping systems, stainless steel fabrication, and industrial engineering solutions.
+          We provide high-quality design, installation, fabrication, testing, and maintenance services for commercial, industrial, and hospitality sector projects.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -61,7 +62,7 @@ export default function Hero() {
         >
           <div className="aspect-video lg:aspect-[4/5] overflow-hidden rounded-sm shadow-2xl relative group">
             <img 
-              src="/input_file_3.png" 
+              src="/src/assets/images/knw-banner.png" 
               alt="KNW Engineers Banner"
               className="w-full h-full object-cover grayscale-0 group-hover:scale-105 transition-transform duration-1000"
             />
